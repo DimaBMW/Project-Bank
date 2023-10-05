@@ -1,0 +1,20 @@
+.button{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items:center;
+    gap: 10px;
+    padding: 5px 5px 5px 15px;
+    border-radius:50px;
+    cursor: pointer;
+    border:none;
+    background-color:rgb(245, 245, 245);
+}
+.purple{
+    background-color:rgb(112, 73, 145);
+    transition: all .30s ease;
+    width: 100%;
+}
+.purple:hover{
+    background-color:rgb(93, 36, 139);
+}

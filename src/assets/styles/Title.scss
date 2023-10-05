@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2? Family= Montserrat:wght@100;200;300;400;500;600;700 & Family= Urbanist:wght@100;300; 400;500;600 & display=swap');
+
+.title{
+    font-weight: 500;
+    color:rgb(90, 90, 90);
+    font-family: Urbanist;
+}
+.showcard__title{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(129, 129, 129);
+}
+.balckcard__title{
+    font-size: 18px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    font-family: Montserrat;
+}
+.select__title{
+    font-size: 16px;
+    font-weight: 500;
+    color:black;
+    font-family: Montserrat;
+}
+.button__title{
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(255, 255, 255);
+    font-family: Montserrat;
+    &.red{
+        color:rgb(245, 154, 139);
+    }
+}
+.iventblock__title{
+    font-size: 12px;
+    font-weight: 500;
+    color:black;
+    font-family: Montserrat;
+}

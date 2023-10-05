@@ -1,0 +1,170 @@
+.main {
+  &_container {
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 10px 10% 25px 10%;
+    display: flex;
+    &__saitbar {
+      flex: 0 1 25%;
+    }
+    &__mainbox {
+      flex: 0 1 75%;
+    }
+  }
+}
+.saitbar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+  height: 100%;
+  gap: 25px;
+  &_Cards {
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    &_showCard {
+      padding: 0px 25px 0px 25px;
+      position: relative;
+      &__title {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      &__Card {
+        padding: 10px 20px 30px 20px;
+        position: relative;
+      }
+    }
+    &_menu {
+      background-color: rgb(255, 255, 255);
+      top: -50px;
+      position: relative;
+      gap: 20px;
+      z-index: 10;
+      border-radius: 0px 0px 20px 20px;
+    }
+    &_button {
+      display: flex;
+      padding: 0px 25px 0px 25px;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      top: -25px;
+      gap: 10px;
+      &__prt1 {
+        flex: 0 1 50%;
+      }
+      &__prt2 {
+        flex: 0 1 50%;
+      }
+    }
+  }
+  &_iventBlock {
+    width: 100%;
+    margin-top: 25px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+  }
+}
+.iventblock_backimg {
+  height: 50px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url("../../../../.././assets/Img/istockphoto-1001210722-612x612.jpg");
+}
+.iventblock_main {
+  background-color: rgb(255, 255, 255);
+  padding: 25px 10px 25px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+}
+.inventblock__link{
+  display: flex;
+  gap: 10px;
+  align-items:center;
+}
+.iventblock_title{
+  padding-left: 20px;
+}
+// Фиолетовый блок в раздеое карточки
+.purple_blok {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(112, 73, 145);
+  border-radius: 20px;
+  transform: rotate(-3deg);
+  position: relative;
+  z-index: 0;
+}
+// кредитная карта
+.blackcard {
+  width: 100%;
+  height: 200px;
+  padding: 0px 0px 0px 0px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  top: 40px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.507);
+  &_title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 0px 20px;
+  }
+  &_data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 0px 20px;
+    &__number {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    &__cvv {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #393939;
+      border-radius: 80px;
+      padding: 10px 10px 10px 10px;
+      margin-right: 35px;
+    }
+  }
+  &_info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10px 10px 20px;
+  }
+}
+.blackcard:hover {
+  // transform: rotate(10deg);
+  transform: translateY(-30px) rotate(10deg);
+}
+
+.number {
+  color: white;
+  font-weight: 500;
+  font-family: Montserrat;
+  letter-spacing: 2px;
+}
+.copy {
+  background: none;
+  border: none;
+  cursor: cell;
+  z-index: 10;
+}

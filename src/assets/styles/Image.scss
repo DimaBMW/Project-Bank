@@ -1,0 +1,43 @@
+.img {
+  height: auto;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    // border-radius: 50px;
+  }
+}
+.main-logo{
+  width: 70px;
+  height: 70px;
+}
+
+.personelogo{
+  width: 50px;
+  height: 50px;
+  img{
+    border-radius:50px;
+  }
+}
+.icon_card{
+  padding-right: 20px;
+  width: auto;
+  height: 25px;
+}
+
+.selec__icon{
+  width: auto;
+  height: 20px;
+}
+.button__img{
+  width: auto;
+  height: 35px;
+}
+.inventblock-strelka{
+  width: auto;
+  height: 15px;
+}
+.iventblock-img{
+  width: 55px;
+  height: 55px;
+}

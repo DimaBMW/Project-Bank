@@ -1,0 +1,55 @@
+.link {
+  text-decoration: none;
+  transition: all 0.5s ease;
+  padding: 0px 0px 5px 0px;
+  cursor: pointer;
+  font-weight: 500;
+  color:rgb(90, 90, 90);
+  position: relative;
+  text-align: center;
+}
+.link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background-color: rgb(112, 73, 145);
+  bottom:0;
+  right: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+.link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.link:hover {
+  color:rgb(112, 73, 145);
+  // font-weight: 700;
+}
+
+.showcard{
+  align-items:center;
+  display: flex;
+  padding: 0;
+  font-weight: 700;
+  color: rgb(112, 73, 145);
+  transition: all .50s ease;
+}
+.showcard:hover{
+  color: rgb(66, 9, 112);
+  font-weight: 700;
+}
+.showcard::before{
+  content: none;
+}
+.inventvlok-link{
+  align-items:center;
+  display: flex;
+  padding: 0;
+  font-weight: 700;
+  color: rgb(112, 73, 145);
+  transition: all .50s ease;
+}
